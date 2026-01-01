@@ -33,5 +33,5 @@ export async function fetchGIF(query,limit=20) {
     params:{q:query,key:TENOR_KEY,limit}
    })
 
-   return res.data
+   return res
 }
